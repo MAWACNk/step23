@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pokeapi</title>
+  </head>
+  <body>
+    <h1>Pokemon身長比較!</h1>
+    <form action="#" class="form" id="js-form">
+      <input id="pokemon1" type="text" name="pokemonName" placeholder="Pokemon Name">
+      <input id="pokemon2" type="text" name="pokemonName" placeholder="Pokemon Name">
+      <button type="submit">Get data</button>
+    </form>
+    <div class="result" id="js-result1">
+      <div id="name1"></div>
+      <div id="id1"></div>
+      <div id="height1"></div>
+      <div id="weight1"></div>
+    </div>
+    <div class="result" id="js-result2">
+      <div id="name2"></div>
+      <div id="id2"></div>
+      <div id="height2"></div>
+      <div id="weight2"></div>
+    </div>
+    <div id="error"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
